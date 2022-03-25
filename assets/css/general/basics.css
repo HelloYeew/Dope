@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&display=swap');
+
 :root {
     --primary-color: var(--ghost-accent-color, #9692af);
     --primary-text-color: #222;
@@ -140,4 +142,11 @@ hr::before {
 
 hr::after {
     left: 20px;
+}
+
+/* HelloYeew's custom style */
+
+.tag-name, .term-name, .post-title-link, .post-title {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
 }
